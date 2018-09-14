@@ -1,0 +1,66 @@
+/* Color Palette
+#191919 - black
+#69DDFF - light blue
+#274060 - dark blue
+#EDEDED - light gray
+#F9F9F9 - white
+*/
+
+
+/* Global styles
+------------------------------------ */
+
+body {
+    background: #191919;
+    margin: 0px;
+}
+
+a {
+    color: #EDEDED;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h2 {
+    color: #69DDFF;
+}
+
+h3 {
+    color: #EDEDED;
+}
+
+p,
+ul {
+    color: #F9F9F9;
+}
+
+
+/* Header and Footer
+------------------------------------ */
+
+header,
+footer {
+    background: #274060;
+    color: #EDEDED;
+}
+
+#image {
+    max-width: 50%;
+    max-height: 50%;
+    border-radius: 50%;
+}
+
+.media-links {
+    width: 25px;
+    height: 25px;
+}
+
+
+/* Work Experience
+------------------------------------ */
+
+
+/* Education
+------------------------------------ */
