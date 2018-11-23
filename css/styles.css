@@ -1,9 +1,8 @@
 /* Color Palette
-#191919 - black
-#69DDFF - light blue
-#274060 - dark blue
-#EDEDED - light gray
-#F9F9F9 - white
+#2B2D42 - dark blue
+#8D99AE - light blue
+#EDF2F4 - blue/white
+#EF233C - red
 */
 
 
@@ -12,28 +11,14 @@
 
 body {
     background: #191919;
-    margin: 0px;
 }
 
 a {
-    color: #EDEDED;
+    color: #EF233C;
 }
 
 a:hover {
     text-decoration: none;
-}
-
-h2 {
-    color: #69DDFF;
-}
-
-h3 {
-    color: #EDEDED;
-}
-
-p,
-ul {
-    color: #F9F9F9;
 }
 
 
@@ -42,8 +27,13 @@ ul {
 
 header,
 footer {
-    background: #274060;
-    color: #EDEDED;
+    background: #2B2D42;
+    color: #8D99AE;
+}
+
+header h1,
+header h2 {
+    color: #EDF2F4;
 }
 
 #image {
@@ -61,6 +51,14 @@ footer {
 /* Work Experience
 ------------------------------------ */
 
+.work {
+    background: #EDF2F4;
+}
+
 
 /* Education
 ------------------------------------ */
+
+.education {
+    background: #8D99AE;
+}
